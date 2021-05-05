@@ -1,0 +1,6 @@
+module Pods_gebaarNL {
+  umbrella header "Pods-gebaarNL-umbrella.h"
+
+  export *
+  module * { export * }
+}

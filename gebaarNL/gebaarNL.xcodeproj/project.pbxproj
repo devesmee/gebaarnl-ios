@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1B4F20258CD4A3009992AC /* ScaleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1B4F1F258CD4A3009992AC /* ScaleSegue.swift */; };
+		0B31D25625A3092000A2E74A /* ship-full.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B31D25525A3092000A2E74A /* ship-full.json */; };
+		0B31D25A25A31D8100A2E74A /* WelcomeBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B31D25925A31D8100A2E74A /* WelcomeBackViewController.swift */; };
+		0B619C95258B95760002FDFE /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B619C94258B95760002FDFE /* ActionButton.swift */; };
+		0B65617F25A89E8500FB02A6 /* wilson.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B65617E25A89E8500FB02A6 /* wilson.json */; };
+		0BF7DE90258230BE007A3D5E /* LetterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF7DE8F258230BE007A3D5E /* LetterButton.swift */; };
+		0BF7DE9425824124007A3D5E /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF7DE9325824124007A3D5E /* ImageButton.swift */; };
+		0BF7DEAA25837A72007A3D5E /* ProgressTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF7DEA3258267F3007A3D5E /* ProgressTracker.swift */; };
+		23E9E729453169C76E1943C6 /* libPods-gebaarNL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79073E825AF4CA916A0EA785 /* libPods-gebaarNL.a */; };
+		34627FED258CB3EA0039371E /* geloof-in-jezelf.json in Resources */ = {isa = PBXBuildFile; fileRef = 34627FEA258CB3E90039371E /* geloof-in-jezelf.json */; };
+		34627FEE258CB3EA0039371E /* je-kan-het.json in Resources */ = {isa = PBXBuildFile; fileRef = 34627FEB258CB3E90039371E /* je-kan-het.json */; };
+		34627FEF258CB3EA0039371E /* niet-opgeven.json in Resources */ = {isa = PBXBuildFile; fileRef = 34627FEC258CB3EA0039371E /* niet-opgeven.json */; };
+		34627FF5258CB5640039371E /* EncouragementAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34627FF4258CB5640039371E /* EncouragementAnimation.swift */; };
+		34627FFE258CBDC00039371E /* explorer-waving.json in Resources */ = {isa = PBXBuildFile; fileRef = 34627FFD258CBDC00039371E /* explorer-waving.json */; };
+		34628006258CE9480039371E /* crab-blue.json in Resources */ = {isa = PBXBuildFile; fileRef = 34628004258CE9480039371E /* crab-blue.json */; };
+		34628007258CE9480039371E /* crab-red.json in Resources */ = {isa = PBXBuildFile; fileRef = 34628005258CE9480039371E /* crab-red.json */; };
+		3462800E258CEECC0039371E /* crab-orange.json in Resources */ = {isa = PBXBuildFile; fileRef = 3462800D258CEECC0039371E /* crab-orange.json */; };
+		347AF4B8258B905100881C88 /* countdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 347AF4B7258B905100881C88 /* countdown.mp3 */; };
+		347B963825A866100053EDAA /* sand-castle-finished.json in Resources */ = {isa = PBXBuildFile; fileRef = 347B963725A866100053EDAA /* sand-castle-finished.json */; };
+		347B964F25A897FC0053EDAA /* beach_background_noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 347B964E25A897FC0053EDAA /* beach_background_noise.mp3 */; };
+		347B965725A8A12B0053EDAA /* squeak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 347B965625A8A12B0053EDAA /* squeak.mp3 */; };
+		347B966125A8A5FB0053EDAA /* crab_claw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 347B966025A8A5FB0053EDAA /* crab_claw.mp3 */; };
+		34BA5F8E258398330088D6F7 /* sea-onto-shore.json in Resources */ = {isa = PBXBuildFile; fileRef = 34BA5F8D258398330088D6F7 /* sea-onto-shore.json */; };
+		34BA5F9B2583B65D0088D6F7 /* explorer-happy.json in Resources */ = {isa = PBXBuildFile; fileRef = 34BA5F9A2583B65D0088D6F7 /* explorer-happy.json */; };
+		34C562BF256FF220004AE5CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C562BE256FF220004AE5CF /* AppDelegate.swift */; };
+		34C562C6256FF220004AE5CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C562C4256FF220004AE5CF /* Main.storyboard */; };
+		34C562C8256FF221004AE5CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C562C7256FF221004AE5CF /* Assets.xcassets */; };
+		34C562CB256FF221004AE5CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C562C9256FF221004AE5CF /* LaunchScreen.storyboard */; };
+		34C562D7256FF3EA004AE5CF /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C562D6256FF3EA004AE5CF /* CameraView.swift */; };
+		34C562DA256FF558004AE5CF /* HandGestureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C562D9256FF558004AE5CF /* HandGestureProcessor.swift */; };
+		34D18DCC257E6B91003797EE /* achievement.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34D18DCB257E6B91003797EE /* achievement.mp3 */; };
+		34FAD85C2582517B007A567C /* MiniGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FAD85B2582517B007A567C /* MiniGameViewController.swift */; };
+		34FAD86725826D73007A567C /* PracticeResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FAD86625826D73007A567C /* PracticeResultViewController.swift */; };
+		34FBB6E9258764660009743A /* increase_score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34FBB6E8258764660009743A /* increase_score.mp3 */; };
+		34FBB6ED258767330009743A /* not_achieved.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34FBB6EC258767330009743A /* not_achieved.mp3 */; };
+		34FBB6F525878DC50009743A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FBB6F425878DC50009743A /* MapViewController.swift */; };
+		34FBB6FB25878DCE0009743A /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FBB6F725878DCE0009743A /* OnboardingViewController.swift */; };
+		34FBB6FD25878DCE0009743A /* PracticeLetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FBB6F925878DCE0009743A /* PracticeLetterViewController.swift */; };
+		34FBB6FE25878DCE0009743A /* TwoHandsDetectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FBB6FA25878DCE0009743A /* TwoHandsDetectionController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B11B441257532CA0036CF0D /* AmsterdamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmsterdamViewController.swift; sourceTree = "<group>"; };
+		0B1B4F1F258CD4A3009992AC /* ScaleSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleSegue.swift; sourceTree = "<group>"; };
+		0B31D25525A3092000A2E74A /* ship-full.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ship-full.json"; sourceTree = "<group>"; };
+		0B31D25925A31D8100A2E74A /* WelcomeBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackViewController.swift; sourceTree = "<group>"; };
+		0B619C94258B95760002FDFE /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		0B65617E25A89E8500FB02A6 /* wilson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wilson.json; sourceTree = "<group>"; };
+		0BF7DE8F258230BE007A3D5E /* LetterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterButton.swift; sourceTree = "<group>"; };
+		0BF7DE9325824124007A3D5E /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+		0BF7DEA3258267F3007A3D5E /* ProgressTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTracker.swift; sourceTree = "<group>"; };
+		0C3A10DD65A18A55610DCA34 /* Pods-gebaarNL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gebaarNL.debug.xcconfig"; path = "Target Support Files/Pods-gebaarNL/Pods-gebaarNL.debug.xcconfig"; sourceTree = "<group>"; };
+		2507B3220F80A725A512C68E /* Pods-gebaarNL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gebaarNL.release.xcconfig"; path = "Target Support Files/Pods-gebaarNL/Pods-gebaarNL.release.xcconfig"; sourceTree = "<group>"; };
+		34627FEA258CB3E90039371E /* geloof-in-jezelf.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "geloof-in-jezelf.json"; sourceTree = "<group>"; };
+		34627FEB258CB3E90039371E /* je-kan-het.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "je-kan-het.json"; sourceTree = "<group>"; };
+		34627FEC258CB3EA0039371E /* niet-opgeven.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "niet-opgeven.json"; sourceTree = "<group>"; };
+		34627FF4258CB5640039371E /* EncouragementAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncouragementAnimation.swift; sourceTree = "<group>"; };
+		34627FFD258CBDC00039371E /* explorer-waving.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "explorer-waving.json"; sourceTree = "<group>"; };
+		34628004258CE9480039371E /* crab-blue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "crab-blue.json"; sourceTree = "<group>"; };
+		34628005258CE9480039371E /* crab-red.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "crab-red.json"; sourceTree = "<group>"; };
+		3462800D258CEECC0039371E /* crab-orange.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "crab-orange.json"; sourceTree = "<group>"; };
+		347AF4B7258B905100881C88 /* countdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = countdown.mp3; sourceTree = "<group>"; };
+		347B963725A866100053EDAA /* sand-castle-finished.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sand-castle-finished.json"; sourceTree = "<group>"; };
+		347B964E25A897FC0053EDAA /* beach_background_noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beach_background_noise.mp3; sourceTree = "<group>"; };
+		347B965625A8A12B0053EDAA /* squeak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = squeak.mp3; sourceTree = "<group>"; };
+		347B966025A8A5FB0053EDAA /* crab_claw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crab_claw.mp3; sourceTree = "<group>"; };
+		34BA5F8D258398330088D6F7 /* sea-onto-shore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sea-onto-shore.json"; sourceTree = "<group>"; };
+		34BA5F9A2583B65D0088D6F7 /* explorer-happy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "explorer-happy.json"; sourceTree = "<group>"; };
+		34C562BB256FF220004AE5CF /* gebaarNL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gebaarNL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C562BE256FF220004AE5CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34C562C5256FF220004AE5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34C562C7256FF221004AE5CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34C562CA256FF221004AE5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34C562CC256FF221004AE5CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C562D6256FF3EA004AE5CF /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		34C562D9256FF558004AE5CF /* HandGestureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandGestureProcessor.swift; sourceTree = "<group>"; };
+		34D18DCB257E6B91003797EE /* achievement.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = achievement.mp3; sourceTree = "<group>"; };
+		34FAD85B2582517B007A567C /* MiniGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGameViewController.swift; sourceTree = "<group>"; };
+		34FAD86625826D73007A567C /* PracticeResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeResultViewController.swift; sourceTree = "<group>"; };
+		34FBB6E8258764660009743A /* increase_score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = increase_score.mp3; sourceTree = "<group>"; };
+		34FBB6EC258767330009743A /* not_achieved.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = not_achieved.mp3; sourceTree = "<group>"; };
+		34FBB6F425878DC50009743A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		34FBB6F725878DCE0009743A /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		34FBB6F925878DCE0009743A /* PracticeLetterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeLetterViewController.swift; sourceTree = "<group>"; };
+		34FBB6FA25878DCE0009743A /* TwoHandsDetectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoHandsDetectionController.swift; sourceTree = "<group>"; };
+		79073E825AF4CA916A0EA785 /* libPods-gebaarNL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gebaarNL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34C562B8256FF220004AE5CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E9E729453169C76E1943C6 /* libPods-gebaarNL.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B1B4F1E258CD483009992AC /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				0B1B4F1F258CD4A3009992AC /* ScaleSegue.swift */,
+			);
+			path = Segues;
+			sourceTree = "<group>";
+		};
+		0B285156257927750004269E /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				0B11B441257532CA0036CF0D /* AmsterdamViewController.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		0B9B8A2A2587A33E0016DA03 /* Hand Pose */ = {
+			isa = PBXGroup;
+			children = (
+				34C562D6256FF3EA004AE5CF /* CameraView.swift */,
+				34C562D9256FF558004AE5CF /* HandGestureProcessor.swift */,
+			);
+			path = "Hand Pose";
+			sourceTree = "<group>";
+		};
+		0B9B8A2B2587A3910016DA03 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				34C562C9256FF221004AE5CF /* LaunchScreen.storyboard */,
+				34C562C4256FF220004AE5CF /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0B9B8A2C2587A3A30016DA03 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				34C562BE256FF220004AE5CF /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		0B9B8A2E2587A3AE0016DA03 /* Progress Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				0BF7DEA3258267F3007A3D5E /* ProgressTracker.swift */,
+			);
+			path = "Progress Tracker";
+			sourceTree = "<group>";
+		};
+		0BF7DE92258240FD007A3D5E /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				0BF7DE8F258230BE007A3D5E /* LetterButton.swift */,
+				0BF7DE9325824124007A3D5E /* ImageButton.swift */,
+				0B619C94258B95760002FDFE /* ActionButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		0BF7DE99258251F1007A3D5E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				34FAD86625826D73007A567C /* PracticeResultViewController.swift */,
+				34FBB6F925878DCE0009743A /* PracticeLetterViewController.swift */,
+				34FAD85B2582517B007A567C /* MiniGameViewController.swift */,
+				34FBB6F725878DCE0009743A /* OnboardingViewController.swift */,
+				34FBB6FA25878DCE0009743A /* TwoHandsDetectionController.swift */,
+				34FBB6F425878DC50009743A /* MapViewController.swift */,
+				0B31D25925A31D8100A2E74A /* WelcomeBackViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		18C52B0681E8070D5F2918E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79073E825AF4CA916A0EA785 /* libPods-gebaarNL.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34C562B2256FF220004AE5CF = {
+			isa = PBXGroup;
+			children = (
+				34C562BD256FF220004AE5CF /* gebaarNL */,
+				34C562BC256FF220004AE5CF /* Products */,
+				0B285156257927750004269E /* Recovered References */,
+				91C79C9747D305D9FE660336 /* Pods */,
+				18C52B0681E8070D5F2918E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34C562BC256FF220004AE5CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34C562BB256FF220004AE5CF /* gebaarNL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34C562BD256FF220004AE5CF /* gebaarNL */ = {
+			isa = PBXGroup;
+			children = (
+				0B1B4F1E258CD483009992AC /* Segues */,
+				34C562CC256FF221004AE5CF /* Info.plist */,
+				34C562C7256FF221004AE5CF /* Assets.xcassets */,
+				34D18DD1257E6DC6003797EE /* Animations */,
+				0BF7DE92258240FD007A3D5E /* Buttons */,
+				0B9B8A2C2587A3A30016DA03 /* Delegates */,
+				0B9B8A2A2587A33E0016DA03 /* Hand Pose */,
+				0B9B8A2E2587A3AE0016DA03 /* Progress Tracker */,
+				34D18DCF257E6D98003797EE /* Sounds */,
+				0B9B8A2B2587A3910016DA03 /* Storyboard */,
+				0BF7DE99258251F1007A3D5E /* View Controllers */,
+			);
+			path = gebaarNL;
+			sourceTree = "<group>";
+		};
+		34D18DCF257E6D98003797EE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				347B966025A8A5FB0053EDAA /* crab_claw.mp3 */,
+				347B965625A8A12B0053EDAA /* squeak.mp3 */,
+				347B964E25A897FC0053EDAA /* beach_background_noise.mp3 */,
+				347AF4B7258B905100881C88 /* countdown.mp3 */,
+				34FBB6E8258764660009743A /* increase_score.mp3 */,
+				34D18DCB257E6B91003797EE /* achievement.mp3 */,
+				34FBB6EC258767330009743A /* not_achieved.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		34D18DD1257E6DC6003797EE /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				0B65617E25A89E8500FB02A6 /* wilson.json */,
+				347B963725A866100053EDAA /* sand-castle-finished.json */,
+				0B31D25525A3092000A2E74A /* ship-full.json */,
+				34627FEA258CB3E90039371E /* geloof-in-jezelf.json */,
+				34627FEB258CB3E90039371E /* je-kan-het.json */,
+				34627FEC258CB3EA0039371E /* niet-opgeven.json */,
+				34BA5F8D258398330088D6F7 /* sea-onto-shore.json */,
+				34627FFD258CBDC00039371E /* explorer-waving.json */,
+				34628004258CE9480039371E /* crab-blue.json */,
+				3462800D258CEECC0039371E /* crab-orange.json */,
+				34628005258CE9480039371E /* crab-red.json */,
+				34BA5F9A2583B65D0088D6F7 /* explorer-happy.json */,
+				34627FF4258CB5640039371E /* EncouragementAnimation.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		91C79C9747D305D9FE660336 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C3A10DD65A18A55610DCA34 /* Pods-gebaarNL.debug.xcconfig */,
+				2507B3220F80A725A512C68E /* Pods-gebaarNL.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34C562BA256FF220004AE5CF /* gebaarNL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C562CF256FF221004AE5CF /* Build configuration list for PBXNativeTarget "gebaarNL" */;
+			buildPhases = (
+				446BB14D8128D79DB8BA08B0 /* [CP] Check Pods Manifest.lock */,
+				34C562B7256FF220004AE5CF /* Sources */,
+				34C562B8256FF220004AE5CF /* Frameworks */,
+				34C562B9256FF220004AE5CF /* Resources */,
+				0186E4C399ECB080FE3112E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gebaarNL;
+			productName = gebaarNL;
+			productReference = 34C562BB256FF220004AE5CF /* gebaarNL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34C562B3256FF220004AE5CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					34C562BA256FF220004AE5CF = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 34C562B6256FF220004AE5CF /* Build configuration list for PBXProject "gebaarNL" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34C562B2256FF220004AE5CF;
+			productRefGroup = 34C562BC256FF220004AE5CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34C562BA256FF220004AE5CF /* gebaarNL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34C562B9256FF220004AE5CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34627FFE258CBDC00039371E /* explorer-waving.json in Resources */,
+				34BA5F8E258398330088D6F7 /* sea-onto-shore.json in Resources */,
+				0B31D25625A3092000A2E74A /* ship-full.json in Resources */,
+				34627FED258CB3EA0039371E /* geloof-in-jezelf.json in Resources */,
+				347AF4B8258B905100881C88 /* countdown.mp3 in Resources */,
+				347B965725A8A12B0053EDAA /* squeak.mp3 in Resources */,
+				34C562CB256FF221004AE5CF /* LaunchScreen.storyboard in Resources */,
+				347B966125A8A5FB0053EDAA /* crab_claw.mp3 in Resources */,
+				34628007258CE9480039371E /* crab-red.json in Resources */,
+				3462800E258CEECC0039371E /* crab-orange.json in Resources */,
+				34FBB6E9258764660009743A /* increase_score.mp3 in Resources */,
+				34627FEF258CB3EA0039371E /* niet-opgeven.json in Resources */,
+				34BA5F9B2583B65D0088D6F7 /* explorer-happy.json in Resources */,
+				34627FEE258CB3EA0039371E /* je-kan-het.json in Resources */,
+				34FBB6ED258767330009743A /* not_achieved.mp3 in Resources */,
+				347B964F25A897FC0053EDAA /* beach_background_noise.mp3 in Resources */,
+				34C562C8256FF221004AE5CF /* Assets.xcassets in Resources */,
+				34C562C6256FF220004AE5CF /* Main.storyboard in Resources */,
+				0B65617F25A89E8500FB02A6 /* wilson.json in Resources */,
+				347B963825A866100053EDAA /* sand-castle-finished.json in Resources */,
+				34628006258CE9480039371E /* crab-blue.json in Resources */,
+				34D18DCC257E6B91003797EE /* achievement.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0186E4C399ECB080FE3112E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gebaarNL/Pods-gebaarNL-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gebaarNL/Pods-gebaarNL-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gebaarNL/Pods-gebaarNL-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		446BB14D8128D79DB8BA08B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gebaarNL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C562B7256FF220004AE5CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C562DA256FF558004AE5CF /* HandGestureProcessor.swift in Sources */,
+				0BF7DEAA25837A72007A3D5E /* ProgressTracker.swift in Sources */,
+				34C562BF256FF220004AE5CF /* AppDelegate.swift in Sources */,
+				34FBB6FD25878DCE0009743A /* PracticeLetterViewController.swift in Sources */,
+				34FAD86725826D73007A567C /* PracticeResultViewController.swift in Sources */,
+				0B1B4F20258CD4A3009992AC /* ScaleSegue.swift in Sources */,
+				0B31D25A25A31D8100A2E74A /* WelcomeBackViewController.swift in Sources */,
+				34FBB6F525878DC50009743A /* MapViewController.swift in Sources */,
+				0BF7DE9425824124007A3D5E /* ImageButton.swift in Sources */,
+				0BF7DE90258230BE007A3D5E /* LetterButton.swift in Sources */,
+				34FAD85C2582517B007A567C /* MiniGameViewController.swift in Sources */,
+				34FBB6FE25878DCE0009743A /* TwoHandsDetectionController.swift in Sources */,
+				34FBB6FB25878DCE0009743A /* OnboardingViewController.swift in Sources */,
+				34C562D7256FF3EA004AE5CF /* CameraView.swift in Sources */,
+				34627FF5258CB5640039371E /* EncouragementAnimation.swift in Sources */,
+				0B619C95258B95760002FDFE /* ActionButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34C562C4256FF220004AE5CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C562C5256FF220004AE5CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34C562C9256FF221004AE5CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C562CA256FF221004AE5CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34C562CD256FF221004AE5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34C562CE256FF221004AE5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34C562D0256FF221004AE5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3A10DD65A18A55610DCA34 /* Pods-gebaarNL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8D4GG5QHG;
+				INFOPLIST_FILE = gebaarNL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pepe.gebaar-nl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34C562D1256FF221004AE5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2507B3220F80A725A512C68E /* Pods-gebaarNL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8D4GG5QHG;
+				INFOPLIST_FILE = gebaarNL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pepe.gebaar-nl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34C562B6256FF220004AE5CF /* Build configuration list for PBXProject "gebaarNL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C562CD256FF221004AE5CF /* Debug */,
+				34C562CE256FF221004AE5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C562CF256FF221004AE5CF /* Build configuration list for PBXNativeTarget "gebaarNL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C562D0256FF221004AE5CF /* Debug */,
+				34C562D1256FF221004AE5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34C562B3256FF220004AE5CF /* Project object */;
+}

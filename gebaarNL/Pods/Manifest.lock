@@ -1,0 +1,20 @@
+PODS:
+  - lottie-ios (3.1.9)
+  - SAConfettiView (0.1.8)
+
+DEPENDENCIES:
+  - lottie-ios
+  - SAConfettiView
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+    - SAConfettiView
+
+SPEC CHECKSUMS:
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
+
+PODFILE CHECKSUM: ebf96bcd3d12a400408c7c33665f804992f7ae01
+
+COCOAPODS: 1.10.0
